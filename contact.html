@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title -->
+    <title>Portfolio</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to Font Awesome for social media icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Preconnect to Google Fonts and link to custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar with links to different pages -->
+    <nav>
+      <div class="container nav-container">
+        <a href="" class="logo">Lahen Anjula</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Contact information section -->
+    <div class="contact-info">
+      <div class="contact-container">
+        <div class="item">
+          <!-- Contact information and social media links -->
+          <div class="contact">
+            <div class="heading">Let's Get in Touch</div>
+            <img src="images/contact.png" alt="contact" class="contact-img" />
+            <div class="social-links">
+              <span class="heading2">Connect with me:</span>
+              <ul class="social-media">
+                <!-- Links to social media profiles -->
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61561998488840&mibextid=ZbWKwL"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/lahen-anjula-570289226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Contact form for user messages -->
+          <div class="newsletter">
+            <h4 class="heading3">Contact me</h4>
+            <form action="">
+              <!-- Input fields for name, email, phone, and feedback message -->
+              <div class="input-box">
+                <input type="text" class="input" required />
+                <label for="">Name</label>
+              </div>
+              <div class="input-box">
+                <input type="email" class="input" required />
+                <label for="">Email</label>
+              </div>
+              <div class="input-box">
+                <input type="tel" class="input" required />
+                <label for="">Phone</label>
+              </div>
+              <div class="input-box">
+                <textarea
+                  class="input"
+                  name=""
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+                <label for="">Feedback</label>
+              </div>
+              <!-- Submit button for the form -->
+              <input type="submit" class="btn-contact" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer with navigation links and copyright information -->
+    <footer>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>&copy; Lahen Anjula 2024 || All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic meta tags for character encoding, responsiveness, and title -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Link to external stylesheet for page styles -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to Font Awesome icons for social and other icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar section -->
+    <nav>
+      <div class="container nav-container">
+        <a href="" class="logo">Lahen Anjula</a>
+        <!-- Navigation links to different sections of the portfolio -->
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="projects.html  ">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header section with introduction and profile image -->
+    <header>
+      <div class="container header-container">
+        <!-- Profile image on the left side of the header -->
+        <div class="header-left">
+          <img src="images/me.png" alt="me" />
+        </div>
+        <!-- Action buttons for CV download and contact information -->
+        <div class="header-right">
+          <p><b>Hello I am</b></p>
+          <h1>Lahen Anjula</h1>
+          <h2>Computer Science Student</h2>
+          <div class="header-action-aria">
+            <a href="" class="btn" download="">Download CV</a>
+            <a href="#contact" class="btn btn-dark">Contact info</a>
+          </div>
+          <!-- Social media links (LinkedIn, GitHub) with icons -->
+          <div class="header-social">
+            <a
+              href="https://www.linkedin.com/in/lahen-anjula-570289226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+              ><i class="fa-brands fa-linkedin icon1"></i
+            ></a>
+            <a href="https://github.com/LahenAnjula"
+              ><i class="fa-brands fa-github icon1"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About section -->
+    <section id="About">
+      <p class="heading-p">Get To Know More</p>
+      <h1 class="heading">About Me</h1>
+      <div class="container about-container">
+        <!-- Image in the about section -->
+        <div class="about-left">
+          <img src="images/mee.jpg" alt="My Image" />
+        </div>
+        <!-- Description of experience, education, and personal introduction -->
+        <div class="about-right">
+          <div class="basic">
+            <div class="education">
+              <i class="fa-solid fa-medal icon1"></i>
+              <h4>Experience</h4>
+              <p>2+ years</p>
+              <p>Full Stack Development</p>
+            </div>
+            <div class="education">
+              <i class="fa-solid fa-graduation-cap icon1"></i>
+              <h4>Education</h4>
+              <p>BSc. Hons in</p>
+              <p>Computer Science</p>
+            </div>
+          </div>
+
+          <!-- Personal bio paragraph -->
+          <p class="para">
+            As a 23-year-old computer science enthusiast, I am currently
+            pursuing a B.Sc. (Hons) in Computer Science at the IIT Institute in
+            Sri Lanka, offered by the University of Westminster in the UK. My
+            academic journey has equipped me with a solid foundation in
+            Object-Oriented Programming, Databases, Machine Learning, Artificial
+            Intelligence, Cyber Security, and Web Development. In addition to my
+            studies, I am actively contributing to the industry as an Associate
+            Software Engineer at HCLTech. I also share my passion for technology
+            by conducting tuition classes for O/L and A/L ICT students. I am
+            always eager to learn and grow, and I am constantly seeking
+            opportunities to further develop my skills in the field of software
+            engineering.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section with frontend and backend skills -->
+    <section id="Experience">
+      <a href="" class="arrow"><i class="fa-solid fa-angle-up icon1"></i></a>
+      <p class="heading-p">Explore My</p>
+      <h1 class="heading">Experience</h1>
+      <div class="container experience-container">
+        <!-- Frontend Development Skills with progress bars -->
+        <div class="experience-box">
+          <h2>Frontend Development</h2>
+          <div class="experience">
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>HTML</h4>
+                <progress value="90" max="100">90%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>SASS</h4>
+                <progress value="75" max="100">75%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>CSS</h4>
+                <progress value="85" max="100">85%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>JavaScript</h4>
+                <progress value="80" max="100">80%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>React JS</h4>
+                <progress value="70" max="100">70%</progress>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend Development Skills with progress bars -->
+        <div class="experience-box">
+          <h2>Backend Development</h2>
+          <div class="experience">
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>Node JS</h4>
+                <progress value="80" max="100">80%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>Express JS</h4>
+                <progress value="70" max="100">70%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>PHP</h4>
+                <progress value="65" max="100">65%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>Mongo DB</h4>
+                <progress value="60" max="100">60%</progress>
+              </div>
+            </div>
+            <div class="ex-div">
+              <i class="fa-solid fa-circle-check icon1"></i>
+              <div>
+                <h4>Firebase</h4>
+                <progress value="55" max="100">55%</progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section with navigation links and copyright -->
+    <footer>
+      <ul class="nav-links">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>&copy;Lahen Anjula 2024 || All Right Reserved.</p>
+    </footer>
+  </body>
+</html>
