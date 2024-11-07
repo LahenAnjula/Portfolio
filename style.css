@@ -659,7 +659,7 @@ textarea.input {
   }
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   a {
     font-size: 18px;
   }
@@ -670,26 +670,36 @@ textarea.input {
   footer {
     padding: 0;
     padding-bottom: 20px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 9rem;
   }
 
-  .experience-box {
-    padding: 2px;
+  .experience-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   .experience {
-    width: 100px;
-    gap: 2px;
+    grid-template-columns: 1fr;
+  }
+
+  .experience-box {
+    padding: 16px;
   }
 
   .ex-div {
-    gap: 2px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
+  .nav-links {
+    gap: 0;
+    justify-content: space-between;
+  }
   h1 {
     font-size: 36px;
   }
@@ -722,15 +732,22 @@ textarea.input {
     height: 40px;
   }
 
-  .experience-box {
-    padding: 2px;
-  }
-
-  .experience {
+  .experience-container {
+    grid-template-columns: 1fr;
     gap: 10px;
   }
 
+  .experience-box {
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
   .ex-div {
-    gap: 2px;
+    gap: 5px;
   }
 }
